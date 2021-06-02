@@ -1,0 +1,2 @@
+# ShaderTest2
+UnityのShader実験２。３ＤキャラのShaderとかポストエフェクトとかの予定。
