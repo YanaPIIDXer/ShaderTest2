@@ -4559,6 +4559,7 @@ GameObject:
   - component: {fileID: 8855073710316263814}
   - component: {fileID: 8855073710316263810}
   - component: {fileID: 1459490434}
+  - component: {fileID: 5643519665234508301}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -4676,6 +4677,23 @@ MonoBehaviour:
   - {fileID: 8855073710321538467}
   CheekMaterialTarget: {fileID: 8855073710321538503}
   SkinMaterialTarget: {fileID: 8855073710321538527}
+--- !u!114 &5643519665234508301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855073710316263813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d61302c3b5be2849a02be611c70aea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Materials:
+    Body: {fileID: 2100000, guid: c7b51a0ab995d7e4cacad89c268672b1, type: 2}
+    Hair: {fileID: 2100000, guid: 05d230570fe8f3c46b51ebf2c09bf5ce, type: 2}
+    Cheek: {fileID: 2100000, guid: 5cfd0c82c238ba6429c7a7a5f7a5c40e, type: 2}
+    Skin: {fileID: 2100000, guid: 079aecdb4af4f444eb318fee2ac2ff7a, type: 2}
 --- !u!1 &8855073710316263815
 GameObject:
   m_ObjectHideFlags: 0

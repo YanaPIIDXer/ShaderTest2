@@ -61,6 +61,14 @@ namespace Character
             AssignDefaultMaterial();
         }
 
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                AssignDefaultMaterial();
+            }
+        }
+
         /// <summary>
         /// デフォルトのマテリアルをアサイン
         /// </summary>
