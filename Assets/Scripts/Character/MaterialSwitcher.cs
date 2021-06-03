@@ -73,7 +73,7 @@ namespace Character
         /// 指定したマテリアルセットをアサイン
         /// </summary>
         /// <param name="Set">マテリアルセット</param>
-        private void AssignMaterialSet(MaterialSet Set)
+        public void AssignMaterialSet(MaterialSet Set)
         {
             foreach (var r in BodyMaterialTargets)
             {
